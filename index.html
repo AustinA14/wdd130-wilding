@@ -6,6 +6,7 @@
     <title>The Backend Journey</title>
     <link rel="icon" type="image/png" href="images/wilding_logo.png">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.16.0/devicon.min.css">
 </head>
 <body>
     <div id="content">
@@ -28,13 +29,49 @@
             </div>
         </div>
         <main>
-            <p id="intro_text">...</p>
+            <p id="intro_text">I'm Jonathan Wilding, a Software Engineering student at BYU-Idaho focused on backend development — the systems, APIs, databases, and business logic that power real applications. This site documents my growth as a developer from the ground up, and will expand over time into a full portfolio of working projects. My long-term goal is a backend engineering role, ultimately with the Church of Jesus Christ of Latter-day Saints ICS department.</p>
             <div id="home-intro">
                 <img id="featured-project" src="images/..." alt="Featured Project">
-                <p id="featured-project-text">...</p>
+                <p id="featured-project-text">A real attendance tracking tool built out of genuine need — I serve as the Sunday School secretary for my ward and wanted a better way to manage weekly attendance than paper records. Built in HTML and CSS now, with database and backend layers being added as my coursework progresses.</p>
             </div>
-            <p id="skills-snapshot">...</p>
+            <div class="skills-snapshot">
+                <div class="skill">
+                    <i class="devicon-python-plain colored"></i>
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span>HTML &amp; CSS</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-git-plain colored"></i>
+                    <span>Git &amp; GitHub</span>
+                </div>
+            </div>
         </main>
+
+        <style>
+            .skills-snapshot {
+                display: flex;
+                gap: 32px;
+                flex-wrap: wrap;
+                align-items: center;
+            }
+            .skill {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-family: system-ui, sans-serif;
+                font-size: 16px;
+            }
+            .skill i {
+                font-size: 28px;
+            }
+        </style>
 
         <footer>
             <p>Want to contact me?</p>
