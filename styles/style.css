@@ -119,6 +119,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: larger;
 }
 
 #project-intro {
@@ -139,7 +140,7 @@ main {
     color: #E8A33D;
 }
 
-#featured-project {
+#featured-project-snap {
     width: 100%;
     height: auto;
     display: block;
