@@ -97,6 +97,10 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.project_redirect:hover {
+    color: #F7F7F5;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
